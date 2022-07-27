@@ -7,7 +7,7 @@ from skimage.io import imread
 # download the image
 img_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Little_Qualicum_Falls_Provincial_Park_%2836676053752%29.jpg/640px-Little_Qualicum_Falls_Provincial_Park_%2836676053752%29.jpg'
 
-im = imread(img_url)
+im = imread(img_url
 
 st.image(im, caption='image from wikimedia commons',
          use_column_width=True)
